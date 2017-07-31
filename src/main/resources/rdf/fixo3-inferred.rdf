@@ -1,0 +1,1582 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://fixo3.eu/vocab/"
+     xml:base="http://fixo3.eu/vocab/"
+     xmlns:schema="http://schema.org/"
+     xmlns:geosparql="http://www.opengis.net/ont/geosparql#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:systems="http://www.w3.org/ns/ssn/systems/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:sosa="http://www.w3.org/ns/sosa/"
+     xmlns:ssn="http://www.w3.org/ns/ssn/">
+    <owl:Ontology rdf:about="http://fixo3.eu/vocab/">
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</owl:versionInfo>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-23</dc:date>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markus Stocker</dc:creator>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fixo3.eu/</rdfs:seeAlso>
+        <owl:imports rdf:resource="http://esonetyellowpages.com/vocab/"/>
+        <owl:imports rdf:resource="http://schema.org/"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#wktLiteral -->
+
+    <rdfs:Datatype rdf:about="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+    
+
+
+    <!-- internal:anonymous-constants -->
+
+    <rdfs:Datatype rdf:about="internal:anonymous-constants"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/location -->
+
+    <rdf:Description rdf:about="http://schema.org/location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://schema.org/location"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/unitCode -->
+
+    <rdf:Description rdf:about="http://schema.org/unitCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://schema.org/unitCode"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#hasGeometry -->
+
+    <owl:ObjectProperty rdf:about="http://www.opengis.net/ont/geosparql#hasGeometry">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/actsOnProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/actsOnProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isActedOnBy"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasFeatureOfInterest -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasFeatureOfInterest">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasResult -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasResult">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasResult"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasSample -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasSample">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasSample"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isSampleOf"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hosts -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hosts">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isHostedBy"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hosts"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isHostedBy"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isActedOnBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isActedOnBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isActedOnBy"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/actsOnProperty"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isFeatureOfInterestOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isFeatureOfInterestOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasFeatureOfInterest"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isFeatureOfInterestOf"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isHostedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isHostedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hosts"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isHostedBy"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isObservedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isObservedBy">
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/forProperty"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isObservedBy"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isResultOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isResultOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isResultOf"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasResult"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/isSampleOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/isSampleOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasSample"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isSampleOf"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/hasSample"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeActuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeActuation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeActuation"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeByActuator"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeByActuator -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeByActuator">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeActuation"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeActuation"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeByActuator"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeBySampler -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeBySampler">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeSampling"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeSampling"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeBySampler"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeBySensor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeBySensor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeObservation"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeBySensor"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeObservation"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeObservation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeObservation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeBySensor"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeObservation"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/madeSampling -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/madeSampling">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeBySampler"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/madeSampling"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/observedProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/observedProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/observedProperty"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/observes -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/observes">
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isObservedBy"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/forProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/observes"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/isObservedBy"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/phenomenonTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/phenomenonTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/phenomenonTime"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/usedProcedure -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/usedProcedure">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/sosa/usedProcedure"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/deployedOnPlatform -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/deployedOnPlatform">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/inDeployment"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/deployedSystem -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/deployedSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasDeployment"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/deployedSystem"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasDeployment"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/detects -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/detects">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/detects"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/forProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/forProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/forProperty"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasDeployment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasDeployment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/deployedSystem"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasDeployment"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasInput -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasInput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasInput"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasOutput -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasOutput">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasOutput"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/hasSubSystem -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/hasSubSystem">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasSubSystem"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/implementedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/implementedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/implementedBy"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/implements -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/implements">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/implements"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/implementedBy"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/inDeployment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/inDeployment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/deployedOnPlatform"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/inDeployment"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/isPropertyOf -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/isPropertyOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/isPropertyOf"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/isProxyFor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/isProxyFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/isProxyFor"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/wasOriginatedBy -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/wasOriginatedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/wasOriginatedBy"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/systems/hasSystemCapability -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemCapability"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/systems/hasSystemProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://schema.org/maxValue -->
+
+    <rdf:Description rdf:about="http://schema.org/maxValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/minValue -->
+
+    <rdf:Description rdf:about="http://schema.org/minValue">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/value -->
+
+    <rdf:Description rdf:about="http://schema.org/value">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#asWKT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.opengis.net/ont/geosparql#asWKT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/hasSimpleResult -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/hasSimpleResult">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/resultTime -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/resultTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/AcousticDopplerCurrentProfiler -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/AcousticDopplerCurrentProfiler">
+        <rdfs:subClassOf rdf:resource="http://esonetyellowpages.com/vocab/HydroacousticCurrentMeter"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/CO2Pro -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/CO2Pro">
+        <rdfs:subClassOf rdf:resource="http://esonetyellowpages.com/vocab/PartialPressureOfCO2Analyzer"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/CarbonDioxide -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/CarbonDioxide">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/CellSize -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/CellSize">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/DopplerEffect -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/DopplerEffect">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/Frequency -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/Frequency">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/HydroacousticCurrentMeter -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/HydroacousticCurrentMeter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/Infrared -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/Infrared">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/MeasuringRange -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/MeasuringRange">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/OperatingDepth -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/OperatingDepth">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/PartialPressure -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/PartialPressure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/PartialPressureOfCO2Analyzer -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/PartialPressureOfCO2Analyzer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/ProfilingRange -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/ProfilingRange">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/Speed -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/Speed">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/TemperatureRange -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/TemperatureRange">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/WaterCurrent -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/WaterCurrent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/WorkhorseQuartermaster150kHzADCP -->
+
+    <rdf:Description rdf:about="http://esonetyellowpages.com/vocab/WorkhorseQuartermaster150kHzADCP">
+        <owl:equivalentClass rdf:resource="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0732/"/>
+        <rdfs:subClassOf rdf:resource="http://esonetyellowpages.com/vocab/AcousticDopplerCurrentProfiler"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://fixo3.eu/vocab/FixedPointOceanObservatory -->
+
+    <owl:Class rdf:about="http://fixo3.eu/vocab/FixedPointOceanObservatory">
+        <rdfs:label xml:lang="en">Fixed-Point Ocean Observatory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://fixo3.eu/vocab/OceanObservatory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://fixo3.eu/vocab/OceanObservatory -->
+
+    <owl:Class rdf:about="http://fixo3.eu/vocab/OceanObservatory">
+        <rdfs:label xml:lang="en">Ocean Observatory</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+    <rdf:Description rdf:about="http://purl.org/vocommons/voaf#Vocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/PropertyValue -->
+
+    <rdf:Description rdf:about="http://schema.org/PropertyValue">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/QuantitativeValue -->
+
+    <rdf:Description rdf:about="http://schema.org/QuantitativeValue">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://vocab.nerc.ac.uk/collection/L22/current/TOOL0732/ -->
+
+    <rdf:Description rdf:about="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0732/">
+        <rdfs:subClassOf rdf:resource="http://esonetyellowpages.com/vocab/AcousticDopplerCurrentProfiler"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.opengis.net/ont/sfPoint -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/sfPoint">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opengis.net/ont/geosparql#Feature -->
+
+    <owl:Class rdf:about="http://www.opengis.net/ont/geosparql#Feature">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2006/time#TemporalEntity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ActuatableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ActuatableProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Actuator -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Actuator">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/System"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Observation -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Observation">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Platform -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Platform">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Procedure -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Procedure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Result -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Result">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sample -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sample">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/sosa/Result"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sampler -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sampler">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/System"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sampling -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sampling">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/Sensor -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sosa/Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/System"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Deployment -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Deployment">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Input -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Input">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Output -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Output">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Property -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Property">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/Stimulus -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/Stimulus">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/System -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/systems/SystemCapability -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/systems/SystemProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/b2df3 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/b2df3">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/Frequency"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">150.0</schema:value>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#KiloHertz"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/bbaf4 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/bbaf4">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/OperatingDepth"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1500.0</schema:value>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#Meter"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/c6563 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/c6563">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/Speed"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+        <ssn:isPropertyOf rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+        <sosa:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/f9211 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/f9211">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/WaterCurrent"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <ssn:hasProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/fc84e -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/fc84e">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/OperatingDepth"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:minValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</schema:minValue>
+        <schema:maxValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">300.0</schema:maxValue>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#Meter"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/2dfc4 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/2dfc4">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/PartialPressure"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+        <ssn:isPropertyOf rdf:resource="http://esonetyellowpages.com/vocab/541de"/>
+        <sosa:isObservedBy rdf:resource="http://fixo3.eu/vocab/e2c91"/>
+        <sosa:isObservedBy rdf:resource="http://fixo3.eu/vocab/45767"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/237d4 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/237d4">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/MeasuringRange"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:maxValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2000.0</schema:maxValue>
+        <schema:minValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">800.0</schema:minValue>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#Millibar"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/5c105 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/5c105">
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemCapability"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/fc84e"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/237d4"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/541de -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/541de">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/CarbonDioxide"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <ssn:hasProperty rdf:resource="http://esonetyellowpages.com/vocab/2dfc4"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/6fd42 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/6fd42">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/DopplerEffect"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/651f2 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/651f2">
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemCapability"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/b2df3"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/bbaf4"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/7e101"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/78484"/>
+        <systems:hasSystemProperty rdf:resource="http://esonetyellowpages.com/vocab/81485"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/7e101 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/7e101">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/ProfilingRange"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">300.0</schema:value>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#Meter"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/746b9 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/746b9">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/Infrared"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/Stimulus"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/78484 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/78484">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/CellSize"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:maxValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">24.0</schema:maxValue>
+        <schema:minValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</schema:minValue>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#Meter"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://esonetyellowpages.com/vocab/81485 -->
+
+    <owl:Thing rdf:about="http://esonetyellowpages.com/vocab/81485">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/TemperatureRange"/>
+        <rdf:type rdf:resource="http://schema.org/PropertyValue"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+        <schema:minValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-5.0</schema:minValue>
+        <schema:maxValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</schema:maxValue>
+        <schema:unitCode rdf:resource="http://qudt.org/vocab/unit#DegreeCelsius"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/a3369 -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/a3369">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/sfPoint"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">POINT (-16.5 49.0)</rdfs:label>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-16.5 49.0)</geosparql:asWKT>
+        <geosparql:asWKT rdf:datatype="internal:anonymous-constants">POINT (-16.5 49.0)</geosparql:asWKT>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/e00a1 -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/e00a1">
+        <rdf:type rdf:resource="http://fixo3.eu/vocab/FixedPointOceanObservatory"/>
+        <rdf:type rdf:resource="http://fixo3.eu/vocab/OceanObservatory"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+        <rdfs:label xml:lang="en">E2-M3A</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fixo3.eu/observatory/e2-m3a/</dc:source>
+        <rdfs:comment xml:lang="en">Deep-sea, continuous monitoring station: it provides the longest oceanographic time series in the South Adriatic Pit (Eastern Mediterranean Sea). The observatory is composed by two moorings (surface buoy and sub-surface mooring line) and designed to monitor physical and biogeochemical processes in the water column from the surface down to the bottom (approximately 1220m).  The E2-M3A surface buoy collects air/sea meteorological and physical measurements in the surface layer (2m depth). The secondary deep mooring instead, is equipped with current meters (RDI-ADCP and Seaguard-RCM), CTD’s with Dissolved Oxygen and optical sensors. New biochemical sensors (CO2 and pH) were deployed during the first year of the FiXO3 project to enhance the payload of the site.</rdfs:comment>
+        <dc:title xml:lang="en">Southern Adriatic Interdisciplinary Laboratory for Ocean Research</dc:title>
+        <sosa:hosts rdf:resource="http://fixo3.eu/vocab/e2c91"/>
+        <sosa:hosts rdf:resource="http://fixo3.eu/vocab/0195d"/>
+        <schema:location rdf:resource="http://fixo3.eu/vocab/31357"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/e2c91 -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/e2c91">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/CO2Pro"/>
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/PartialPressureOfCO2Analyzer"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/System"/>
+        <rdfs:label xml:lang="en">The CO2-Pro on E2-M3A</rdfs:label>
+        <sosa:observes rdf:resource="http://esonetyellowpages.com/vocab/2dfc4"/>
+        <ssn:forProperty rdf:resource="http://esonetyellowpages.com/vocab/2dfc4"/>
+        <systems:hasSystemCapability rdf:resource="http://esonetyellowpages.com/vocab/5c105"/>
+        <ssn:detects rdf:resource="http://esonetyellowpages.com/vocab/746b9"/>
+        <sosa:isHostedBy rdf:resource="http://fixo3.eu/vocab/e00a1"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/f2aca -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/f2aca">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/sfPoint"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">POINT (18.08 41.52)</rdfs:label>
+        <geosparql:asWKT rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (18.08 41.52)</geosparql:asWKT>
+        <geosparql:asWKT rdf:datatype="internal:anonymous-constants">POINT (18.08 41.52)</geosparql:asWKT>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/0195d -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/0195d">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/AcousticDopplerCurrentProfiler"/>
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/HydroacousticCurrentMeter"/>
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/WorkhorseQuartermaster150kHzADCP"/>
+        <rdf:type rdf:resource="http://vocab.nerc.ac.uk/collection/L22/current/TOOL0732/"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/System"/>
+        <rdfs:label xml:lang="en">The Workhorse Quartermaster 150 kHz ADCP on E2-M3A</rdfs:label>
+        <sosa:observes rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+        <ssn:forProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+        <ssn:detects rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+        <systems:hasSystemCapability rdf:resource="http://esonetyellowpages.com/vocab/651f2"/>
+        <sosa:isHostedBy rdf:resource="http://fixo3.eu/vocab/e00a1"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/31357 -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/31357">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">Eastern Mediterranean Sea @ POINT (18.08 41.52)</rdfs:label>
+        <geosparql:hasGeometry rdf:resource="http://fixo3.eu/vocab/f2aca"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/45767 -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/45767">
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/CO2Pro"/>
+        <rdf:type rdf:resource="http://esonetyellowpages.com/vocab/PartialPressureOfCO2Analyzer"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/ssn/System"/>
+        <rdfs:label xml:lang="en">The CO2-Pro on PAP</rdfs:label>
+        <sosa:observes rdf:resource="http://esonetyellowpages.com/vocab/2dfc4"/>
+        <ssn:forProperty rdf:resource="http://esonetyellowpages.com/vocab/2dfc4"/>
+        <systems:hasSystemCapability rdf:resource="http://esonetyellowpages.com/vocab/5c105"/>
+        <ssn:detects rdf:resource="http://esonetyellowpages.com/vocab/746b9"/>
+        <sosa:isHostedBy rdf:resource="http://fixo3.eu/vocab/7deac"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/6711c -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/6711c">
+        <rdf:type rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="en">Northeast Atlantic @ POINT (-16.5 49.0)</rdfs:label>
+        <geosparql:hasGeometry rdf:resource="http://fixo3.eu/vocab/a3369"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://fixo3.eu/vocab/7deac -->
+
+    <owl:Thing rdf:about="http://fixo3.eu/vocab/7deac">
+        <rdf:type rdf:resource="http://fixo3.eu/vocab/FixedPointOceanObservatory"/>
+        <rdf:type rdf:resource="http://fixo3.eu/vocab/OceanObservatory"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/Platform"/>
+        <rdfs:label xml:lang="en">PAP</rdfs:label>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.fixo3.eu/observatory/pap/</dc:source>
+        <rdfs:comment xml:lang="en">Array of moorings covering the entire water column and benthos with associated repeat ship occupations for process studies and collections not possible autonomously (eg benthic megafauna) Longest running multidisciplinary North Atlantic open ocean sustained observatory delivering atmospheric and physical and biogeochemical ocean datasets in near real-time.</rdfs:comment>
+        <dc:title xml:lang="en">Porcupine Abyssal Plain Observatory</dc:title>
+        <sosa:hosts rdf:resource="http://fixo3.eu/vocab/45767"/>
+        <schema:location rdf:resource="http://fixo3.eu/vocab/6711c"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://qudt.org/vocab/unit#DegreeCelsius -->
+
+    <owl:Thing rdf:about="http://qudt.org/vocab/unit#DegreeCelsius"/>
+    
+
+
+    <!-- http://qudt.org/vocab/unit#KiloHertz -->
+
+    <owl:Thing rdf:about="http://qudt.org/vocab/unit#KiloHertz"/>
+    
+
+
+    <!-- http://qudt.org/vocab/unit#Meter -->
+
+    <owl:Thing rdf:about="http://qudt.org/vocab/unit#Meter"/>
+    
+
+
+    <!-- http://qudt.org/vocab/unit#Millibar -->
+
+    <owl:Thing rdf:about="http://qudt.org/vocab/unit#Millibar"/>
+    
+
+
+    <!-- http://www.w3.org/ns/sosa/ -->
+
+    <owl:Thing rdf:about="http://www.w3.org/ns/sosa/">
+        <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.w3.org/ns/ssn/ -->
+
+    <owl:Thing rdf:about="http://www.w3.org/ns/ssn/">
+        <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.10-SNAPSHOT) http://owlapi.sourceforge.net -->
+

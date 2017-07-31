@@ -1,0 +1,26 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ssn: <https://www.w3.org/ns/ssn/>
+PREFIX schema: <http://schema.org/>
+PREFIX unit: <http://qudt.org/vocab/unit#>
+PREFIX eyp: <http://esonetyellowpages.com/vocab/>
+PREFIX qudt: <http://qudt.org/schema/qudt#>
+
+SELECT ?observatory ?sensor ?property ?value ?minValue ?maxValue ?unit
+WHERE {
+  [ 
+    rdf:type ssn:SensingDevice ;
+    rdfs:label ?sensor ;
+    ssn:onPlatform [ rdfs:label ?observatory ] 
+  ]
+    ssn:hasMeasurementCapability [ ssn:hasMeasurementProperty [ rdfs:label ?propertyLabel ; ssn:hasValue ?ov ] ] .
+    
+  ?ov rdf:type ?vt .
+  ?ov schema:unitCode [ qudt:symbol ?unit ] .
+  
+  OPTIONAL { ?ov schema:value ?value } .
+  OPTIONAL { ?ov schema:minValue ?minValue . ?ov schema:maxValue ?maxValue } .
+
+  FILTER(?vt = <https://www.w3.org/ns/ssn/ObservationValue>)
+}
+ORDER BY ?observatory ?sensor ?property

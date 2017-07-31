@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:sosa="http://www.w3.org/ns/sosa/" xmlns:ssn-system="http://www.w3.org/ns/ssn/systems/" xmlns:ssn="http://www.w3.org/ns/ssn/" xmlns:time="http://www.w3.org/2006/time#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:voaf="http://purl.org/vocommons/voaf#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://purl.org/vocommons/voaf#Vocabulary">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/created">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#example">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <foaf:name xml:lang="en">W3C/OGC Spatial Data on the Web Working Group</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:title xml:lang="en">System capabilities, operating ranges, and survival ranges ontology</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:description xml:lang="en">This ontology describes system capabilities, operating ranges, and survival ranges.</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:creator rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:rights>Copyright 2017 W3C/OGC.</dcterms:rights>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:license rdf:resource="http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:license rdf:resource="http://www.opengeospatial.org/ogc/Software"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <rdfs:comment xml:lang="en">Please report any errors to the W3C Spatial Data on the Web Working Group via the SDW WG Public List public-sdw-wg@w3.org</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <rdfs:seeAlso rdf:resource="https://www.w3.org/2015/spatial/wiki/Semantic_Sensor_Network_Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-05-14</dcterms:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <vann:preferredNamespacePrefix>ssn-system</vann:preferredNamespacePrefix>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <vann:preferredNamespaceUri>http://www.w3.org/ns/ssn/systems/</vann:preferredNamespaceUri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/">
+    <owl:imports rdf:resource="http://www.w3.org/ns/ssn/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/qualityOfObservation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/qualityOfObservation">
+    <rdfs:label xml:lang="en">quality of observation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/qualityOfObservation">
+    <skos:definition xml:lang="en">Relation linking an Observation to the adjudged quality of the Result. This is complimentary to the SystemCapability information recorded for the Sensor that made the Observation.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/qualityOfObservation">
+    <rdfs:comment xml:lang="en">Relation linking an Observation to the adjudged quality of the Result. This is complimentary to the SystemCapability information recorded for the Sensor that made the Observation.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/qualityOfObservation">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/SystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/hasOperatingRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/OperatingRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/hasSurvivalRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/SurvivalRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+    <rdfs:subClassOf rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+    <rdfs:subClassOf rdf:nodeID="genid3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+    <rdfs:subClassOf rdf:nodeID="genid4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/System">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/inCondition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/inCondition">
+    <rdfs:label xml:lang="en">in condition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/inCondition">
+    <skos:definition xml:lang="en">Describes the prevailing environmental conditions for SystemCapabilites, OperatingRanges and SurvivalRanges.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/inCondition">
+    <rdfs:comment xml:lang="en">Describes the prevailing environmental conditions for SystemCapabilites, OperatingRanges and SurvivalRanges.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/inCondition">
+    <skos:example xml:lang="en">Used for example to say that a sensor has a particular accuracy in particular conditions.</skos:example>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/inCondition">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Condition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Condition">
+    <rdfs:label xml:lang="en">Condition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Condition">
+    <skos:definition xml:lang="en">Used to specify ranges for qualities that act as conditions on a system/sensor's operation.  For example, wind speed of 10-60m/s may be used as the condition on a SystemProperty, for example, to state that a sensor has a particular accuracy in that condition.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Condition">
+    <rdfs:comment xml:lang="en">Used to specify ranges for qualities that act as conditions on a system/sensor's operation.  For example, wind speed of 10-60m/s may be used as the condition on a SystemProperty, for example, to state that a sensor has a particular accuracy in that condition.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Condition">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Condition">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+    <rdfs:label xml:lang="en">has system capability</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+    <skos:definition xml:lang="en">Relation from a System to a SystemCapability describing the capabilities of the System under certain Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+    <rdfs:comment xml:lang="en">Relation from a System to a SystemCapability describing the capabilities of the System under certain Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemCapability">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/forProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid7">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/inCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid7">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid8">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/inCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid8">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/Condition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid9">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid10">
+    <owl:onProperty rdf:nodeID="genid9"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid10">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:label xml:lang="en">System Capability</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <skos:definition xml:lang="en">Describes normal measurement, actuation, sampling properties such as accuracy, range, precision, etc. of a System under some specified Conditions such as a temperature range.
+
+    The capabilities specified here are those that affect the primary purpose of the System, while those in OperatingRange represent the system's normal operating environment, including conditions that don't affect the observations or the actuations.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:comment xml:lang="en">Describes normal measurement, actuation, sampling properties such as accuracy, range, precision, etc. of a System under some specified Conditions such as a temperature range.
+
+    The capabilities specified here are those that affect the primary purpose of the System, while those in OperatingRange represent the system's normal operating environment, including conditions that don't affect the observations or the actuations.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:subClassOf rdf:nodeID="genid5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:subClassOf rdf:nodeID="genid6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:subClassOf rdf:nodeID="genid7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:subClassOf rdf:nodeID="genid8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:subClassOf rdf:nodeID="genid10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemCapability">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+    <rdfs:label xml:lang="en">has system property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+    <skos:definition xml:lang="en">Relation from an SystemCapability of a System to a SystemProperty describing the capabilities of the System.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+    <rdfs:comment xml:lang="en">Relation from an SystemCapability of a System to a SystemProperty describing the capabilities of the System.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSystemProperty">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid11">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid12">
+    <owl:onProperty rdf:nodeID="genid11"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid12">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid13">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid14">
+    <owl:onProperty rdf:nodeID="genid13"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid14">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/SystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdfs:label xml:lang="en">System Property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <skos:definition xml:lang="en">An identifiable and observable characteristic that represents the System's ability to operate its primary purpose: a Sensor to make Observations, an Actuator to make Actuations, or a Sampler to make Samplings.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdfs:comment xml:lang="en">An identifiable and observable characteristic that represents the System's ability to operate its primary purpose: a Sensor to make Observations, an Actuator to make Actuations, or a Sampler to make Samplings.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdfs:subClassOf rdf:nodeID="genid12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdfs:subClassOf rdf:nodeID="genid14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemProperty">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid15">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid16">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid17">
+    <owl:onProperty rdf:nodeID="genid16"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid17">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid18">
+    <owl:onProperty rdf:nodeID="genid15"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid18">
+    <owl:allValuesFrom rdf:nodeID="genid17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <rdfs:label xml:lang="en">Measurement Range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <skos:definition xml:lang="en">The set of values that the Sensor can return as the Result of an Observation under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <rdfs:comment xml:lang="en">The set of values that the Sensor can return as the Result of an Observation under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <rdfs:subClassOf rdf:nodeID="genid18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MeasurementRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid19">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid20">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid21">
+    <owl:onProperty rdf:nodeID="genid20"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid21">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Actuator"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid22">
+    <owl:onProperty rdf:nodeID="genid19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid22">
+    <owl:allValuesFrom rdf:nodeID="genid21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <rdfs:label xml:lang="en">Actuation Range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <skos:definition xml:lang="en">The set of values that the Actuator can return as the Result of an Actuation under the defined Conditions with the defined system properties.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <rdfs:comment xml:lang="en">The set of values that the Actuator can return as the Result of an Actuation under the defined Conditions with the defined system properties.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <rdfs:subClassOf rdf:nodeID="genid22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ActuationRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Accuracy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Accuracy">
+    <rdfs:label xml:lang="en">Accuracy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Accuracy">
+    <skos:definition xml:lang="en">The closeness of agreement between the Result of an Observation (resp. the command of an Actuation) and the true value of the observed ObservableProperty (resp. of the acted on ActuatableProperty) under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Accuracy">
+    <rdfs:comment xml:lang="en">The closeness of agreement between the Result of an Observation (resp. the command of an Actuation) and the true value of the observed ObservableProperty (resp. of the acted on ActuatableProperty) under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Accuracy">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Accuracy">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid23">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid24">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSystemCapability"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid25">
+    <owl:onProperty rdf:nodeID="genid24"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid25">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid26">
+    <owl:onProperty rdf:nodeID="genid23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid26">
+    <owl:allValuesFrom rdf:nodeID="genid25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <rdfs:label xml:lang="en">Detection Limit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <skos:definition xml:lang="en">An observed value for which the probability of falsely claiming the absence of a component in a material is beta, given a probability alpha of falsely claiming its presence.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <rdfs:comment xml:lang="en">An observed value for which the probability of falsely claiming the absence of a component in a material is beta, given a probability alpha of falsely claiming its presence.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <rdfs:subClassOf rdf:nodeID="genid26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/DetectionLimit">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Drift">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Drift">
+    <rdfs:label xml:lang="en">Drift</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Drift">
+    <skos:definition xml:lang="en">As a Sensor Property: a continuous or incremental change in the reported values of Observations over time for an unchanging Property under the defined Conditions.
+
+      As an Actuator Property: a continuous or incremental change in the true value of the acted on ActuatableProperty over time for an unchanging command under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Drift">
+    <rdfs:comment xml:lang="en">As a Sensor Property: a continuous or incremental change in the reported values of Observations over time for an unchanging Property under the defined Conditions. 
+
+      As an Actuator Property: a continuous or incremental change in the true value of the acted on ActuatableProperty over time for an unchanging command under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Drift">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Drift">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Frequency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Frequency">
+    <rdfs:label xml:lang="en">Frequency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Frequency">
+    <skos:definition xml:lang="en">The smallest possible time between one Observation, Actuation, or Sampling and the next, under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Frequency">
+    <rdfs:comment xml:lang="en">The smallest possible time between one Observation, Actuation, or Sampling and the next, under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Frequency">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Frequency">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Latency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Latency">
+    <rdfs:label xml:lang="en">Latency</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Latency">
+    <skos:definition xml:lang="en">The time between a command for an Observation (resp. Actuation) and the Sensor providing a Result (resp. the Actuator operating the Actuation), under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Latency">
+    <rdfs:comment xml:lang="en">The time between a command for an Observation (resp. Actuation) and the Sensor providing a Result (resp. the Actuator operating the Actuation), under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Latency">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Latency">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Precision">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Precision">
+    <rdfs:label xml:lang="en">Precision</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Precision">
+    <skos:definition xml:lang="en">As a Sensor Property: the closeness of agreement between replicate Observations on an unchanged or similar Property value: i.e., a measure of a Sensor's ability to consistently reproduce an Observation, under the defined Conditions.
+
+      As an Actuator Property: the closeness of agreement between replicate Actuations for an unchanged or similar command: i.e., a measure of an Actuator's ability to consistently reproduce an Actuation, under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Precision">
+    <rdfs:comment xml:lang="en">As a Sensor Property: the closeness of agreement between replicate Observations on an unchanged or similar Property value: i.e., a measure of a Sensor's ability to consistently reproduce an Observation, under the defined Conditions.
+
+      As an Actuator Property: the closeness of agreement between replicate Actuations for an unchanged or similar command: i.e., a measure of an Actuator's ability to consistently reproduce an Actuation, under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Precision">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Precision">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Resolution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Resolution">
+    <rdfs:label xml:lang="en">Resolution</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Resolution">
+    <skos:definition xml:lang="en">As a Sensor Property: the smallest difference in the value of a ObservableProperty being observed that would result in perceptably different values of Observation Results, under the defined Conditions.
+
+      As an Actuator Property: the smallest difference in the value of an Actuation command that would result in a value change of the ActuatableProperty being acted on, under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Resolution">
+    <rdfs:comment xml:lang="en">As a Sensor Property: the smallest difference in the value of a ObservableProperty being observed that would result in perceptably different values of Observation Results, under the defined Conditions. 
+
+      As an Actuator Property: the smallest difference in the value of an Actuation command that would result in a value change of the ActuatableProperty being acted on, under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Resolution">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Resolution">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ResponseTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ResponseTime">
+    <rdfs:label xml:lang="en">Response Time</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ResponseTime">
+    <skos:definition xml:lang="en">As a Sensor Property: the time between a (step) change in the value of an observed ObservableProperty and a Sensor (possibly with specified error) 'settling' on an observed value, under the defined Conditions.
+
+      As an Actuator property: the time between a (step) change in the command of an Actuator and the 'settling' of the value of the acted on ActuatableProperty, under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ResponseTime">
+    <rdfs:comment xml:lang="en">As a Sensor Property: the time between a (step) change in the value of an observed ObservableProperty and a Sensor (possibly with specified error) 'settling' on an observed value, under the defined Conditions.
+
+      As an Actuator property: the time between a (step) change in the command of an Actuator and the 'settling' of the value of the acted on ActuatableProperty, under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ResponseTime">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/ResponseTime">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Selectivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Selectivity">
+    <rdfs:label xml:lang="en">Selectivity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Selectivity">
+    <skos:definition xml:lang="en">As a Sensor Property: Selectivity is a Property of a Sensor whereby it provides observed values for one or more ObservableProperties such that the Results for each ObservableProperty are independent of other Properties in the FeatureOfInterest being investigated,  under the defined Conditions.
+
+      As an Actuator Property: Selectivity is a Property of an Actuator whereby it acts on one or more ActuatableProperties such as the Results for each ActuatableProperty are independent of other Properties in the FeatureOfInterest being acted on, under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Selectivity">
+    <rdfs:comment xml:lang="en">As a Sensor Property: Selectivity is a Property of a Sensor whereby it provides observed values for one or more ObservableProperties such that the Results for each ObservableProperty are independent of other Properties in the FeatureOfInterest being investigated,  under the defined Conditions.
+
+      As an Actuator Property: Selectivity is a Property of an Actuator whereby it acts on one or more ActuatableProperties such as the Results for each ActuatableProperty are independent of other Properties in the FeatureOfInterest being acted on, under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Selectivity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Selectivity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Sensitivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Sensitivity">
+    <rdfs:label xml:lang="en">Sensitivity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Sensitivity">
+    <skos:definition xml:lang="en">As a Sensor Property: Sensitivity is the quotient of the change in a Result of Observation and the corresponding change in a value of an ObservableProperty being observed, under the defined Conditions.
+
+       As an Actuator Property: Sensitivity is the quotient of the change in a command of Actuation and the corresponding change in a value of an ActuatableProperty being acted on, under the defined Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Sensitivity">
+    <rdfs:comment xml:lang="en">As a Sensor Property: Sensitivity is the quotient of the change in a Result of Observation and the corresponding change in a value of an ObservableProperty being observed, under the defined Conditions.
+
+       As an Actuator Property: Sensitivity is the quotient of the change in a command of Actuation and the corresponding change in a value of an ActuatableProperty being acted on, under the defined Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Sensitivity">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SystemProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/Sensitivity">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingRange">
+    <rdfs:label xml:lang="en">has operating range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingRange">
+    <skos:definition xml:lang="en">Relation from a System to an OperatingRange describing the normal operating environment of the System.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingRange">
+    <rdfs:comment xml:lang="en">Relation from a System to an OperatingRange describing the normal operating environment of the System.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingRange">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid27">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/inCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid27">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid28">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/inCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid28">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/Condition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid29">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasOperatingRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid30">
+    <owl:onProperty rdf:nodeID="genid29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid30">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid31">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/hasOperatingProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid31">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/OperatingProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:label xml:lang="en">Operating Range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <skos:definition xml:lang="en">Describes normal OperatingProperties of a System under some specified Conditions. For example, to the power requirement or maintenance schedule of a System under a specified temperature range.
+
+    In the absence of OperatingProperties, it simply describes the Conditions in which a System is expected to operate.
+
+    The System continues to operate as defined using SystemCapability. If, however, the SurvivalRange is violated, the System is 'damaged' and SystemCapability specifications may no longer hold.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:comment xml:lang="en">Describes normal OperatingProperties of a System under some specified Conditions. For example, to the power requirement or maintenance schedule of a System under a specified temperature range.
+
+    In the absence of OperatingProperties, simply describes the Conditions in which a System is expected to operate.
+
+    The System continues to operate as defined using SystemCapability. If, however, the SurvivalRange is violated, the System is 'damaged' and SystemCapability specifications may no longer hold.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:subClassOf rdf:nodeID="genid27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:subClassOf rdf:nodeID="genid28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:subClassOf rdf:nodeID="genid30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:subClassOf rdf:nodeID="genid31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingProperty">
+    <rdfs:label xml:lang="en">has operating property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingProperty">
+    <skos:definition xml:lang="en">Relation from an OperatingRange of a System to a OperatingPropery describing the operating range of the System.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingProperty">
+    <rdfs:comment xml:lang="en">Relation from an OperatingRange of a System to a OperatingPropery describing the operating range of the System.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingProperty">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasOperatingProperty">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid32">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasOperatingProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid33">
+    <owl:onProperty rdf:nodeID="genid32"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid33">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid34">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasOperatingProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid35">
+    <owl:onProperty rdf:nodeID="genid34"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid35">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/OperatingRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdfs:label xml:lang="en">Operating Property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <skos:definition xml:lang="en">An identifiable characteristic that represents how the System operates under the specified Conditions. May describe power ranges, power sources, standard configurations, attachments and the like.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdfs:comment xml:lang="en">An identifiable characteristic that represents how the System operates under the specified Conditions. May describe power ranges, power sources, standard configurations, attachments and the like.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdfs:subClassOf rdf:nodeID="genid33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdfs:subClassOf rdf:nodeID="genid35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingProperty">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MaintenanceSchedule">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MaintenanceSchedule">
+    <rdfs:label xml:lang="en">Maintenance Schedule</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MaintenanceSchedule">
+    <skos:definition xml:lang="en">Schedule of maintenance for a System in the specified Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MaintenanceSchedule">
+    <rdfs:comment xml:lang="en">Schedule of maintenance for a System in the specified Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MaintenanceSchedule">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/OperatingProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/MaintenanceSchedule">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingPowerRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingPowerRange">
+    <rdfs:label xml:lang="en">Operating Power Range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingPowerRange">
+    <skos:definition xml:lang="en">Power range in which a System is expected to operate in the specified Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingPowerRange">
+    <rdfs:comment xml:lang="en">Power range in which a System is expected to operate in the specified Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingPowerRange">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/OperatingProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/OperatingPowerRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalRange">
+    <rdfs:label xml:lang="en">has survival range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalRange">
+    <skos:definition xml:lang="en">Relation from a System to a SurvivalRange.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalRange">
+    <rdfs:comment xml:lang="en">Relation from a System to a SurvivalRange.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalRange">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid36">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/inCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid36">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid37">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid37">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/SurvivalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid38">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid38">
+    <owl:onProperty rdf:resource="http://www.w3.org/ns/ssn/systems/inCondition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid38">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/Condition"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid39">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSurvivalRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid40">
+    <owl:onProperty rdf:nodeID="genid39"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid40">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/System"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:label xml:lang="en">Survival Range</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <skos:definition xml:lang="en">Describes SurvivalProperties of a System under some specified Conditions. For example, the lifetime of a System under a specified temperature range.
+
+    In the absence of SurvivalProperties, simply describes the Conditions a System can be exposed to without damage. For example, the temperature range a System can withstand before being considered damaged.
+
+    The System continues to operate as defined using SystemCapability. If, however, the SurvivalRange is violated, the System is 'damaged' and SystemCapability specifications may no longer hold.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:comment xml:lang="en">Describes survival capabilities of a System under some specified Conditions. For example, to the lifetime of a System under a specified temperature range.
+
+    In the absence of SurvivalProperties, simply describes the Conditions a System can be exposed to without damage. For example, the temperature range a System can withstand before being considered damaged.
+
+    The System continues to operate as defined using SystemCapability. If, however, the OperatingProperty is violated, the System is operating 'out of operating range' and SystemCapability specifications may no longer hold.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:subClassOf rdf:nodeID="genid36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:subClassOf rdf:nodeID="genid37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:subClassOf rdf:nodeID="genid38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:subClassOf rdf:nodeID="genid40"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalRange">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty">
+    <rdfs:label xml:lang="en">has survival property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty">
+    <skos:definition xml:lang="en">Relation from a SurvivalRange of a System to a SurvivalProperty describing the survival range of the System.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty">
+    <rdfs:comment xml:lang="en">Relation from a SurvivalRange of a System to a SurvivalProperty describing the survival range of the System.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/ssn/hasProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid41">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid42">
+    <owl:onProperty rdf:nodeID="genid41"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid42">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid43">
+    <owl:inverseOf rdf:resource="http://www.w3.org/ns/ssn/systems/hasSurvivalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid44">
+    <owl:onProperty rdf:nodeID="genid43"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid44">
+    <owl:allValuesFrom rdf:resource="http://www.w3.org/ns/ssn/systems/SurvivalRange"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdfs:label xml:lang="en">Survival Property</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <skos:definition xml:lang="en">An identifiable characteristic that represents the extent of the System's useful life under the specified Conditions. May describe for example total battery life or number of recharges, or, for Sensors that are used only a fixed number of times, the number of observations that can be made before the sensing capability is depleted.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdfs:comment xml:lang="en">An identifiable characteristic that represents the extent of the System's useful life under the specified Conditions. May describe for example total battery life or number of recharges, or, for Sensors that are used only a fixed number of times, the number of observations that can be made before the sensing capability is depleted.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/Property"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdfs:subClassOf rdf:nodeID="genid42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdfs:subClassOf rdf:nodeID="genid44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SurvivalProperty">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemLifetime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemLifetime">
+    <rdfs:label xml:lang="en">System Lifetime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemLifetime">
+    <skos:definition xml:lang="en">Total useful life of a System (expressed as total life since manufacture, time in use, number of operations, etc.) in the specified Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemLifetime">
+    <rdfs:comment xml:lang="en">Total useful life of a System (expressed as total life since manufacture, time in use, number of operations, etc.) in the specified Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemLifetime">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SurvivalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/SystemLifetime">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/BatteryLifetime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/BatteryLifetime">
+    <rdfs:label xml:lang="en">Battery Lifetime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/BatteryLifetime">
+    <skos:definition xml:lang="en">Total useful life of a System's battery in the specified Conditions.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/BatteryLifetime">
+    <rdfs:comment xml:lang="en">Total useful life of a System's battery in the specified Conditions.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/BatteryLifetime">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/ssn/systems/SurvivalProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/ns/ssn/systems/BatteryLifetime">
+    <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/ssn/systems/"/>
+  </rdf:Description>
+</rdf:RDF>

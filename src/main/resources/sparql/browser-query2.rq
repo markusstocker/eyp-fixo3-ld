@@ -1,0 +1,27 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX ssn: <http://www.w3.org/ns/ssn/>
+PREFIX fixo3: <http://fixo3.eu/vocab/>
+
+SELECT ?sensorId ?sensorLabel ?propertyId ?propertyLabel 
+    ?featureId ?featureLabel ?stimulusId ?stimulusLabel
+WHERE {
+    OBS_ID rdf:type sosa:Platform .
+    OBS_ID sosa:hosts ?sensorId .
+    ?sensorId rdfs:label ?sensorLabel .
+    ?sensorId sosa:observes ?propertyId .
+    ?propertyId rdf:type ?propertyTypeId .
+    ?propertyTypeId rdfs:label ?propertyLabel .
+    ?propertyId ssn:isPropertyOf ?featureId .
+    ?featureId rdf:type ?featureTypeId .
+    ?featureTypeId rdfs:label ?featureLabel .
+    ?sensorId ssn:detects ?stimulusId .
+    ?stimulusId rdf:type ?stimulusTypeId .
+    ?stimulusTypeId rdfs:label ?stimulusLabel .
+    
+    FILTER (?propertyTypeId != sosa:ObservableProperty)
+    FILTER (?propertyTypeId != ssn:Property)
+    FILTER (?featureTypeId != sosa:FeatureOfInterest)
+    FILTER (?stimulusTypeId != ssn:Stimulus)
+}

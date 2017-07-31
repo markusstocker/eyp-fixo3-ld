@@ -1,0 +1,32 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX ssn-system: <http://www.w3.org/ns/ssn/systems/>
+PREFIX schema: <http://schema.org/>
+PREFIX unit: <http://qudt.org/vocab/unit#>
+PREFIX eyp: <http://esonetyellowpages.com/vocab/>
+PREFIX qudt: <http://qudt.org/schema/qudt#>
+PREFIX fixo3: <http://fixo3.eu/vocab/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?propertyLabel ?propertyType ?value ?minValue ?maxValue ?unitId ?unitSymbol
+WHERE {
+  SENSOR_ID rdf:type sosa:Sensor .
+  SENSOR_ID ssn-system:hasSystemCapability [ 
+    ssn-system:hasSystemProperty ?propertyId
+  ] .
+
+  ?propertyId rdfs:label ?propertyLabel .  
+  ?propertyId rdf:type ?propertyType .
+  ?propertyId schema:unitCode ?unitId .
+  ?unitId qudt:symbol ?unitSymbol .
+  
+  OPTIONAL { ?propertyId schema:value ?value } .
+  OPTIONAL { ?propertyId schema:minValue ?minValue . ?propertyId schema:maxValue ?maxValue } .
+  
+  FILTER (?propertyType != schema:PropertyValue)
+  FILTER (?propertyType != owl:NamedIndividual)
+  FILTER (?propertyType != owl:Thing)
+  FILTER (?propertyType != ssn-system:SystemProperty)
+}
+ORDER BY ?propertyLabel
