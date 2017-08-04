@@ -6,22 +6,24 @@ PREFIX schema: <http://schema.org/>
 PREFIX time: <http://www.w3.org/2006/time#>
 PREFIX eyp: <http://esonetyellowpages.com/vocab/>
 PREFIX fixo3: <http://fixo3.eu/vocab/>
+PREFIX : <http://w3id.org/lindt/custom_datatypes#>
 
-SELECT ?time ?value ?unit
+SELECT ?time ?value ?unit ?simpleResult
 WHERE {
   [
   	rdf:type sosa:Observation ;
     sosa:isObservedBy SENSOR_ID ;
-    sosa:hasFeatureOfInterest FEATURE_ID ;
-    sosa:observedProperty PROPERTY_ID ;
-    ssn:wasOriginatedBy STIMULUS_ID ;
+    sosa:hasFeatureOfInterest ?featureId ;
+    sosa:observedProperty ?propertyId ;
+    ssn:wasOriginatedBy ?stimulusId ;
     sosa:resultTime [ 
       time:inXSDDateTime ?time 
     ] ; 
     sosa:hasResult [ 
       schema:value ?value; 
       schema:unitCode ?unit 
-    ]
+    ] ;
+    sosa:hasSimpleResult ?simpleResult
   ]
 }
 ORDER BY ?time

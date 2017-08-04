@@ -51,6 +51,7 @@ public class SOSA {
 	public static final IRI hasFeatureOfInterest = c("hasFeatureOfInterest");
 	
 	public static final IRI hasResult = c("hasResult");
+	public static final IRI hasSimpleResult = c("hasSimpleResult");
 	public static final IRI resultTime = c("resultTime");
 
 	private static IRI c(String suffix) {

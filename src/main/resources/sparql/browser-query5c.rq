@@ -18,6 +18,7 @@ CONSTRUCT {
   ?obsId sosa:hasResult ?resultId . 
   ?resultId schema:value ?value . 
   ?resultId schema:unitCode ?unit .
+  ?obsId sosa:hasSimpleResult ?simpleResult .
 }
 WHERE {
   ?obsId rdf:type sosa:Observation .
@@ -30,4 +31,5 @@ WHERE {
   ?obsId sosa:hasResult ?resultId . 
   ?resultId schema:value ?value . 
   ?resultId schema:unitCode ?unit .
+  ?obsId sosa:hasSimpleResult ?simpleResult .
 }

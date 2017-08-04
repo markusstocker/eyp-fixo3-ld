@@ -4,129 +4,17 @@
     xmlns:j.1="http://www.w3.org/ns/sosa/"
     xmlns:j.2="http://schema.org/"
     xmlns:j.3="http://www.w3.org/ns/ssn/">
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/8ac205bb-f850-4836-a646-4ea4bb0a29db">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4e95bad1-e2d4-4e21-b987-42f7fd878b0f">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/d036c3d2-934a-43e9-8da6-925ae51daca4">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/0c78507e-7408-48d1-8026-3b8d7477fc8a">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0915672043010753</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/779d936b-0be2-41f3-b01f-1bb0cad0d708">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/79cc541b-afb5-4890-bac7-156e00dd90ab">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/6ff47917-d82e-4966-bd0e-9681445fadd9">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.182069444444444</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b556f236-4ea2-48e4-9f6e-95d81c0cc992">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/7fe7887c-625f-4f77-a375-eb8d51b312ec">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/9f75d488-64db-4997-bf09-10b182f321c3">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0885119047619047</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/0caab53d-aa52-4158-8446-5193ec501824">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/478340c0-0190-49af-8df0-de909c8b9839">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f7202e02-3e76-44ef-aae4-1bb1c700da5e">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0848279569892473</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/805465f6-eb91-42d1-93ec-949e535885b3">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/bf4cb52c-9257-46d4-b47b-e6b210d6e0dc">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/788c10a0-429d-43bb-8e57-666f88bdf30d">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0983965053763442</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/d9535c60-7f77-4143-bd3b-63ebc3361190">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/5e578357-b90c-43b2-832a-39329bfc0863">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/279f6fca-e31c-4da0-a54d-374e10c4436f">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0953458715596329</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/bc62f33d-5e9a-4c6a-b212-70b0d79246c3">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e7695256-ed5c-48d8-ba3b-13d773f630ff">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/cb49a795-3223-4287-8742-43ab71685b39">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
         >2015-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.103789705882353 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/6f63b07d-ca3a-4474-91b8-f7ed7811fa78">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/833fc27b-e2ff-4310-b2fb-b13bebf1a6fd">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
         >0.103789705882353</j.2:value>
@@ -137,794 +25,17 @@
     <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
     <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
   </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/befea0db-4037-4b74-baf0-4a82fdaa0eb4">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/fd8452fc-96b7-42af-8581-f820cc62ea64">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/c43791cd-5a2f-4f25-8bb5-f9da9ed7f2a6">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/26a03e48-8e01-4835-b696-afd0561900a0">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0530388888888889</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/d7d99dc4-6936-4eb1-93b5-e97a0b42bbee">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/2e54cb03-66ec-411b-9bea-960f46e18dc0">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/386143b3-f4ef-4753-a227-fe5f0262de2a">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.138416666666667</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/bb5c1ca6-27bb-49f2-9a74-2f9091af5457">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/908026ae-3eff-4032-b8fb-9b74fb3fe475">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/e8b03055-c99d-489f-b3d9-4d6da511be00">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0870483870967742</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/41ae6ce7-a0b1-4d91-9778-54ced26f275b">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/128fc2ad-0b80-4dda-91ca-73bb92dd7477">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/8fcdf9f1-b398-4159-9e9b-207871c9838e">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0637222222222222</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/83e6dd29-ce9d-4a36-9524-19abfc881f4d">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/77dcb391-f96c-4259-9032-84c7233518b5">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/1ce2294e-8070-4ee0-b133-721f1ef97ebe">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.046372311827957</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/8a95f755-c318-49cf-935d-8ab8779f55d9">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/1cab61c1-98fd-400e-9a7a-68f8e42fd9c0">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/fa599c41-3843-487b-84d6-885bb9af823b">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0894704301075269</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4df6ec4c-ee89-4b9c-9088-e50b44aca7a8">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/16f4448a-19a6-4cfb-8e1d-6ea86ece0cce">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/9119a6fb-399e-4598-b6af-20b8b4b55441">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.146072222222222</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/adf2e809-f648-4752-b158-24a6cb4fde6b">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/306bbb42-5fbc-42f3-8cf8-a8e1d9211a2d">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/31a91320-2528-47c3-8738-6a59bcd5de2b">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0643736559139785</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/1f73342e-755c-42cf-92d3-c7ff40dc63e7">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/9c61cfbf-8f97-46a3-932f-c9939e9bdd12">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/66b81788-d0ed-4bb5-96c7-95b8b429016f">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0494784946236559</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/e48ac3ad-8989-4bc9-b7b4-5cd9979bfb37">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e0adb2bf-cd15-45c4-8a2a-33571a12e30d">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/16203184-b269-4bd5-8aad-78b3c434d2c1">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0615180555555557</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/2ba21706-f543-47a2-b927-955cdf244794">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/9a4f2840-5c6b-48f2-a46c-b0fbc7767d7d">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/db2a8c91-039d-4618-aae0-8bc293416616">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0847055555555556</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/be44284f-eafb-4089-a6ff-8e8c064d638a">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/d432a6b9-450d-419c-b320-2b5b09ebf16d">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/190b23e7-1263-46b0-9bec-6231ec3ceb4d">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0818252688172043</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/08398cd2-965d-4f9d-ba83-2cdd422507f3">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/c053f013-ac3f-4427-927d-3e2b7216e431">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/491a05fd-3f37-4c24-9175-495c5fbb0c04">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0519314516129032</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/e0fa2466-7fb9-492d-9ad1-81fa8df955d2">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/4a74f1df-9f21-4db9-86fd-316f181cf692">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/0ffe12ed-c072-4019-a265-9926e3de80bf">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0468083333333333</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b82c1a2e-358e-43f0-9e38-df32af594bf7">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/20783b1e-56c5-42c9-9af5-8250823a87b5">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/19ada7f8-20d2-4090-9bf4-78a0b188e27f">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0936814516129033</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/96ab677d-3968-4e01-85b4-bf25bd257873">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/a1b0ff67-4200-48bb-ad2f-b1e93627427f">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/5907a7a5-d335-41ba-b7d2-3b002e3dc257">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.072125</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/07ba246b-43cf-4389-9863-acb06be7f733">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/9b07b008-0e12-4f3f-9985-75d8c81d8383">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/4d631581-1304-4911-8fee-db7f5f3bca44">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.167260057471264</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/d8943fc3-b836-4d60-97b6-257b7f608c71">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e005c154-0a90-4a28-b7d9-466f6f421fc1">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/972feb25-f980-49e3-a221-8d4b38ff5d23">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.059384027777778</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/81f52b96-8aa4-4889-85c8-603cb15d1bbd">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e080b079-ea07-4afa-ae27-eff665971a72">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/062ec880-a35b-4d0c-85da-60b6ba61dc51">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0700766129032258</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/642766ac-37e6-4972-9e38-8f41a0ceb385">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e8cb046b-3d27-48f0-99e7-b46691a1c6bf">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/fdb6b313-ae6e-4baf-ad4e-a7039b8d8f5d">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0912403606965174</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/ca9ef5fb-315e-4d09-bd87-814ccc0280d3">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/47118655-de72-4a46-8614-ab138d616523">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f5fb822b-786f-40b4-af02-bb0f6261cf6d">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0434818139963168</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/957c6432-6710-42ef-8152-c7498717730b">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/27755414-2602-4001-b1cf-8cd9c78d051c">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/bcb706ea-590d-4d40-8800-ff152f284a24">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.11675314255618</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/19b82f2f-bdcd-4bd5-b87a-d042c004d80c">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/ae75abfb-5478-4b5e-8992-e973d88aeb3f">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/a26b8dea-1ba7-4d0a-b69d-d0b1f2d69b5c">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.05577688172043</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/bebb3b60-9a6e-42d0-9c5d-d62e3dc7494b">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/84b0cdab-ddbc-4412-be08-a5157c917fdc">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/48b01513-e5c7-4277-b06e-5967e419c117">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0504138888888889</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/6f7dea8c-bc4f-4502-a1e5-775a1863e654">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/12b415ec-c528-4b87-8b57-54864cbe5db5">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/b554f0b7-11b2-45d5-9052-69608b8758e8">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0661202956989248</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/fdd65c0c-2931-4ef4-bb38-9ef8cb7fd4dc">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/22f97736-d722-47dc-9415-ecd5d84a380e">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/32d6dc7e-9224-4161-b6fb-4b6d9a1a2d92">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0390927419354839</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/6822cdf6-20a0-41d6-9165-66aca2160b3f">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/46652b57-1cd7-4f58-ae00-0ec922544b84">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/242ef086-4ceb-4d49-b2b4-3d9aaa225bfa">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0406935483870968</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/fc22fd10-4b63-4e3e-b992-c048c175d792">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/3cc93df6-edaa-467e-9267-c29385887d3a">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/b74a6445-2775-45cd-ab14-184da1449eb2">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0611653225806452</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/5fc68f3e-509f-4727-b883-f9fa346f65a3">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/6e46aa8d-fae3-40d0-8af4-6118c29b97fd">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/38ba4b4b-a9cb-4d89-b36d-02b5458a4e0a">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0909301075268817</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/db5a2852-bc12-4d34-93dc-42bd0d30d3cc">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/7a6ab926-6c80-489b-a593-0d2e7082dba1">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/3cb0ad90-a33d-400f-9482-3ac91b6cec90">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.129548611111111</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4104ed2a-c19f-4eac-9a93-b0b103b50cd6">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/3b51f89a-d936-4936-8b1f-85e0cbbb717f">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/6f80ad20-80ae-42ab-a1f2-bdeaa73cb1ad">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0407472222222222</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/850497a3-703f-4de5-911a-5ee2db17ee06">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/d41cce97-e9de-461e-b611-3ea681e186fa">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2012-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/40262054-672a-4c1c-9eb7-8dff96759ca8">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0947567204301075</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/a8899c93-2475-40a6-87fa-71814c7ca4f6">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/0f94d522-a182-4663-862e-2218c6a6c174">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/15ffbd19-8b7f-4df8-811c-a4b831363a30">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0479985119047619</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/919ef547-8d87-4c6c-a658-d84300d5df66">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/7feb7d45-7e86-468f-8f15-7c522c9a3519">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/56314800-88da-4d2a-8dfa-b44f92a50416">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0523690476190476</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/31bdc9da-ead3-4b2d-8d00-ebe3553360b6">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/4a2c9ae8-a1c4-4057-84cc-5308be1a8c42">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2011-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/d5d4eef3-1e9f-4f66-831e-873ac93e4e2b">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0557486111111111</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/718a6e40-41d4-48a2-8acf-4d3c608f4042">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/27bf9514-ccf7-43ff-8d5d-e025b3ab5924">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2013-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/64a21f8b-5c6a-495b-9d04-fc7e31fcbe6f">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0724099462365591</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/9a986354-b21c-431c-85ef-5fe7898a0a24">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/6f010279-c8f9-4c5a-ab18-430428f51699">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/030aa8e7-32d9-4075-bb6d-3ed56ac9d3fa">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.05095</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/74c44c78-e309-48d7-a57c-d192e81498ea">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/54f8e69e-d2bf-4de5-babc-8ceaa7fb8da9">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f3240fa7-7e15-403c-876e-a0d5b05af83a">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0529065860215054</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/6acdce3d-0d17-4a96-846b-902cd6a7adf2">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/0ab7988f-932e-44f9-a2cd-ca06382ce732">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f63b45de-9baf-408f-bc7f-4d02f02d9c65">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0915166666666668</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4b1d6765-dd44-4633-acfc-cbead3c3d749">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/9e44798e-8a4f-4197-b175-380a4c1cf4b3">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2015-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f2e198df-02e5-4c32-8689-4d700c0c5ab7">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.117927884615385</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/369d53e4-4500-4c15-8c6f-b7aef1beadcc">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/1e2935dc-f204-45fc-a805-76cd2fb513b3">
-        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
-      </j.0:Instant>
-    </j.1:resultTime>
-    <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/353522e8-7675-4a5b-8df9-6827ad645a10">
-        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
-        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0484045698924731</j.2:value>
-      </j.2:QuantitativeValue>
-    </j.1:hasResult>
-    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
-    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
-    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
-    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
-  </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/8bde840d-1ddb-42b7-88c1-73f6de1173f3">
-    <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/38a7023a-0cd2-469c-b7c7-028e1ca0bdce">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/b9ceca1d-8750-41f8-bb06-444d2480df3d">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
         >2015-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.105672043010753 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/2595edcb-bf39-47db-bb0e-abfe5e603057">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/9ef9c6d3-02e8-43e8-bce7-39f90ddbb341">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
         >0.105672043010753</j.2:value>
@@ -935,18 +46,20 @@
     <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
     <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
   </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/061d0157-7f88-4aae-9df7-8f44dfe66fd1">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4b57cb5a-6246-445e-a8c0-2f96ae0316ae">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/de1031f5-882b-4e89-a3fb-ce7732325d10">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/c99cb106-6719-43a9-8df1-9a89719f14e9">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+        >2015-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0818252688172043 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/aa6bcf27-c972-4f9f-9398-6e886fba7dce">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/1f8c509e-0ed0-4e40-8d31-cfb677120d00">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0410322580645161</j.2:value>
+        >0.0818252688172043</j.2:value>
       </j.2:QuantitativeValue>
     </j.1:hasResult>
     <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
@@ -954,18 +67,20 @@
     <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
     <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
   </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/2c1134e2-4361-4f02-b88c-3fce1d5a15ee">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/49f80e66-7377-4460-8d5b-292fbd33cf5f">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/70847a52-ae11-4261-bde0-f07587396bed">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/9871db75-5cfc-4397-a014-9c75605f09e0">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
-        >2014-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+        >2013-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.046372311827957 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/13ddc615-b163-4a53-972c-af1f5f2ba476">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/4bbb91aa-e3d8-46b6-81ad-c16d9b78fd32">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
-        >0.0935454029172645</j.2:value>
+        >0.046372311827957</j.2:value>
       </j.2:QuantitativeValue>
     </j.1:hasResult>
     <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
@@ -973,15 +88,101 @@
     <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
     <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
   </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/24a5743f-e755-4b3f-94ec-636f1701d477">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/04c142bc-4c78-4c57-aee8-c145b67bbbf0">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/7ae2a8fb-4c6b-4757-a834-89f9c989233a">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/8920a2e1-6e96-479a-a524-3506e35ec502">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0479985119047619 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/fc5ae902-b0aa-4c84-9522-820f29762fb5">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0479985119047619</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/81d8a46e-9216-4db5-af6d-2c32ecaa0b2c">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/d8122b0f-d4ea-44a4-8e3f-80c57fe6bc2b">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0390927419354839 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/ac27c03d-1d95-4726-bb76-e9c4cb791dda">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0390927419354839</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/79311cda-5656-451f-a6f1-8d355fbdb8f4">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/a7784a00-17d4-4a10-b56a-595f52d26634">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0894704301075269 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/1b2eca94-a42c-41ed-9c4d-b723a55e7452">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0894704301075269</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/e5d91cb4-4aa7-4ea1-b622-8b22f3ac79b6">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/5927079c-2c2a-45d7-afd8-24edadd021c3">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0519314516129032 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/640f60f9-9e6f-438f-8057-3d12352d4fb5">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0519314516129032</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/c4abf315-c1fd-41c1-b33b-33e97ce28b36">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/0a90816e-465a-4fdf-9692-498178092f84">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
         >2011-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.109870967741935 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f6b454ec-7239-4fce-a151-bc3065f01cf6">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/a7d886b0-3825-455d-8dea-2bc6168b9835">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
         >0.109870967741935</j.2:value>
@@ -992,15 +193,647 @@
     <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
     <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
   </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/1be608ce-5bb0-411a-bc49-843792c2193d">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/e76b5cac-03ed-490d-9e50-b166891bb099">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/06597556-1c57-4a40-ba13-f54c19d7e439">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/57d4e8ea-1f89-4deb-8f73-f1fba22bc771">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0523690476190476 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/b2251b74-742e-4e66-86a4-74f34a5a1a76">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0523690476190476</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/6a3495db-ea96-4732-8d61-a83b7c514063">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/428b4afd-ae96-4809-9443-f66a2c523852">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0953458715596329 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/37814c16-cdda-43b3-81b8-6a0e7a2c663a">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0953458715596329</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/14811698-90f1-4f9a-b900-09e6823d5c6c">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/0b117bee-6f06-4148-889f-07d83fa75b90">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0484045698924731 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/1ae6aaca-0d75-4e7d-a100-dcd6b3fbfc19">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0484045698924731</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b4ffd647-36d9-4a39-bede-68f9ca636195">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e370e032-3196-4858-9d8a-55f9d3d9b592">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0637222222222222 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/d8026555-98b1-4f7e-a18f-5d88f16c1ed7">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0637222222222222</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/35170cfb-8d44-4656-b2d3-594293c196c7">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/2945ce8d-ef70-47c6-9109-20b33e6b414b">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0504138888888889 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/20225822-dc48-45f3-9f32-d077c6b8771f">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0504138888888889</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/512706d9-d300-4821-99be-711aa877c932">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/19d10c9d-9d21-4b02-900d-0571963c0219">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0468083333333333 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/24ad590f-f5db-4375-927c-cac80b14fcc7">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0468083333333333</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b2787c02-68ff-4009-a302-a24fca91049f">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/6bc812c0-b029-4671-882f-3d2c6849fb93">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.182069444444444 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/53aef59c-62c8-457f-bb87-a5c69b8ba5f6">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.182069444444444</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/c07403a5-637f-4ee3-a8bc-a44d0727ad65">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/d5df2128-46c1-4ae0-8ce1-d967e4747a97">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.072125 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/e701834f-09ba-4ae3-b680-bf75bcbd6bd9">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.072125</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b5901aee-5446-4cd5-995a-ec0c23167dd3">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/cd35bab5-0702-490b-bc63-7342adaf8f5d">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0530388888888889 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/913b0e56-78b0-438a-a323-243daf7c8a5a">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0530388888888889</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/68a8a320-eaec-49a8-86b7-f27d9785297e">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/19fc2504-28a7-43d1-a026-58ae8f7cfd93">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0557486111111111 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/7644dd30-dd71-4ae6-856a-c2066b518421">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0557486111111111</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/39b9e650-eda7-4771-aa76-f2b574249c26">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/8d80331f-de44-483f-ae2d-dc12e5172391">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0643736559139785 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/3679fa0d-6005-4356-ba3f-06327d62c93d">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0643736559139785</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/7fb17d8c-632b-4b42-8e51-622b801ef682">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/239a7993-acad-45f3-9564-48408c273ca6">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.117927884615385 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/87661f0e-3172-465b-baa1-de8166972dc4">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.117927884615385</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/651f5f0f-4b02-4696-a500-607e6ea0636a">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/97398ddd-bbb8-4c1e-8d6d-36d7ba6e2096">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0915166666666668 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/7f8bb5b1-b08b-4346-81c5-82d44e7a96fe">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0915166666666668</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/386f5929-b6b5-4557-a800-d857b3ba60be">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/0cc2945b-e0de-40aa-9fdd-eb8e1f009743">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0406935483870968 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/8ecd58a1-99a8-4b88-906f-7e5f59857f3e">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0406935483870968</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/982c29d6-c368-41f5-99f5-21e3bf36e1d7">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/50ed980b-03f9-42a6-8902-8681752b3b57">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.059384027777778 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/981f4d89-f1e2-47bc-8642-283bdf5f5108">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.059384027777778</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/7e772121-6189-4446-bee0-ac3f41b16507">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/16f0e8c4-95bf-4323-8f0c-fa2aa50c08e1">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.05577688172043 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/76b95f52-8121-4d59-9298-94c2b83ecbc6">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.05577688172043</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/518f2fd8-53a9-458f-bd39-fb1d3df4dc18">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/275676c0-6d07-416e-b5b1-61ab8380da89">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0615180555555557 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/5ce284e1-3e7a-405f-8728-b9c6780d3164">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0615180555555557</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/383e5bb5-01fb-49c1-9b2d-c630bca19e2b">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/6e6bef54-b059-49b1-8759-4ecae76236a3">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0935454029172645 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/3414052c-7f04-4c1d-9ac4-9bbc5506f242">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0935454029172645</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4e27947a-feea-4733-941b-e5b70e4451b8">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/be7ac8c2-8643-4435-ab70-ed5cff5bb04c">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0915672043010753 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/3daf21e5-1b4c-476d-8746-69beeda376fc">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0915672043010753</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/d9799f61-67ae-4a18-8f7e-9216d3ee3f2c">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/d528e6ec-2211-43a2-b702-eedf07818b91">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-06-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0847055555555556 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/aa6bf168-fe96-4b1e-8b36-f07ad862642c">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0847055555555556</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/f0bcd29e-e101-4498-9962-a5e35faa0dd3">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/572d4a61-a1ac-4be6-a813-f4fff21104c0">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0870483870967742 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/c3cc96cc-a31d-4d4b-810a-1a5011a5dc2d">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0870483870967742</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/414109cc-3952-4b70-bc88-0befc72e920f">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/15f2e30f-1e79-4311-9998-18a9bffbc139">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.05095 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/01ed162c-cadd-43b3-a818-86a067616976">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.05095</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/61dd2f5d-a41f-44c9-91c1-bb3a157de26e">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/883ae4fc-6aea-4c8b-837b-2317cd7162e0">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.11675314255618 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/5fd01db0-2026-424d-bdeb-043af5e58d15">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.11675314255618</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/f9090f45-654f-4be5-8461-468179aae41a">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/f7ac1c63-acf1-4bc8-bc78-1217aa11b511">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0529065860215054 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/590d79c2-a2cb-4928-9223-5a9763587677">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0529065860215054</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/1f35ae3e-938b-4d6f-abbc-d5be75403fcb">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/e57db8c1-9261-4a65-9fc8-12027b1e3488">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.146072222222222 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/82c7bad6-3db9-439a-bbdf-936ebbda62f8">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.146072222222222</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/99fd1759-a958-4d1d-8d7f-3583385adc29">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/2586d85f-390c-4401-ac85-212b90106057">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0434818139963168 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/d3a0e566-0911-4086-97da-177b1acaf768">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0434818139963168</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/fd20dbcd-568d-4015-9393-3addef3de6b0">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/418c537b-3a59-4316-be7e-d0208ba21ebc">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0410322580645161 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/6aa15a49-004f-44f0-9530-1cad2f0e1670">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0410322580645161</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b61cefa3-7be6-462d-92b7-96e60d4c72b6">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/ae289965-6ed6-4156-a79a-5f4dd49e782a">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0848279569892473 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/2869630a-bbe7-4546-8b74-573fa27b6f6d">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0848279569892473</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/1545c7b3-13f6-43ce-8097-22638cead229">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/60d6ee46-6274-4663-b9e2-edb4ca56431a">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0494784946236559 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/0a03957b-6aed-4075-b00f-34313ae1603e">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0494784946236559</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/e8b59b23-6db2-4ead-9a25-fc847c03431e">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/a47fecf7-eb84-4021-899d-7cd979d0a97f">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0885119047619047 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/c621aa60-c67f-4f0b-b315-afacd6832ec3">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0885119047619047</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b34bc677-4c06-47b4-9bd9-3ddbeb6a1d4c">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/08c2a33a-b2d2-4d9c-a55a-36afd9758c9e">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
         >2015-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.10378869047619 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/8655b5c4-d953-40d9-bbba-68be792639c6">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/4b8e0649-c527-4b18-bbee-ba5bddd984f7">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
         >0.10378869047619</j.2:value>
@@ -1011,18 +844,293 @@
     <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
     <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
   </j.1:Observation>
-  <j.1:Observation rdf:about="http://fixo3.eu/vocab/d6069af2-90f0-4ae5-899b-10069734e348">
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/e575c3f3-2b4d-4ed2-8de8-83e3f24209e5">
     <j.1:resultTime>
-      <j.0:Instant rdf:about="http://fixo3.eu/vocab/2306c853-b98a-4a86-a3f2-5f7a12b3df9c">
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/130b136e-838f-4062-8a51-9255b7fe91f0">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-02-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.167260057471264 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/6535d74d-b924-4e17-b499-81db3e06c923">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.167260057471264</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/f3dcc215-6515-4f66-ad09-0b377a0c1160">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/6d0796d8-732a-427e-81f1-1f8a0c3e6267">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0611653225806452 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/c9546666-1af5-4143-827e-d243153c78be">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0611653225806452</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/f895f6b3-7fbf-497b-afad-8b2a7bc261d9">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/057c5a56-5aad-468c-8e48-d10bf3f58a29">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0936814516129033 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/f14ad69d-170b-4f9a-87c0-dfdb537b7317">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0936814516129033</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/f59eb248-009f-4729-a0f3-492c4588e563">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/5dccdae6-e95c-4d6a-83ad-622bf773b440">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-08-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.138416666666667 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/9340b8de-d5db-451e-8a22-4fad1d547dd3">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.138416666666667</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/6c8c9f30-5cbe-4a87-8cb3-c93a888c3246">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/c684ecea-25ad-435a-b5a0-ec4079a9fd85">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2011-10-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0700766129032258 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/4928e7cc-2fd6-4e07-a1ca-c730447dbf2a">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0700766129032258</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/ca1dc627-b57d-4b4f-85c4-970ea899ebb1">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/cbab2d19-ff8e-4459-80e1-e60775a33a47">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-01-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0947567204301075 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/3780737e-348a-4a56-bf77-40882d0b88ea">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0947567204301075</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/435d2a01-984b-4320-a4a4-0176d086e586">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/1e0133fb-56ed-458c-a524-d2f34690d91d">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0912403606965174 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/ba953839-032c-4508-a9ee-245f8bc3e1b9">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0912403606965174</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/7b3f45de-6237-4ac9-a5dd-06e049fcfa81">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/7c1d4f86-e087-46ac-927c-c20f623477a0">
         <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
         >2015-09-01T00:00:00.000+02:00</j.0:inXSDDateTime>
       </j.0:Instant>
     </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0609041666666667 m s^-1</j.1:hasSimpleResult>
     <j.1:hasResult>
-      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/634a42bc-2b9b-46d6-9168-3c2a1972eca2">
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/639993c8-510a-4428-b440-50a41b1ef6da">
         <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
         <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
         >0.0609041666666667</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/9177e312-c17c-4966-a432-003fecacd834">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/b3a0dd33-60eb-4993-b6f4-be950735c4fa">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-12-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0724099462365591 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/0a39fe11-7ef7-47b6-b323-a4238b18bba0">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0724099462365591</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/b73345dd-8bc5-4ad4-a400-9b665a461a7e">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/33223987-5ce8-4c33-b85d-142c501b200a">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-11-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0407472222222222 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/de47666c-6eb1-4de4-a3df-b94085912d76">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0407472222222222</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/eb42cdcc-ff11-4d6e-9131-fef01084322b">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/8213cc7b-b35a-4941-80a2-dc80ce72a359">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-04-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.129548611111111 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/b3f87e2f-d1f9-43c7-b7c6-7bc592f25619">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.129548611111111</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/11ccd72b-ddef-4cbe-b797-1d08142e9098">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/33590e1d-2482-4353-bad1-8fed82a00a50">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-07-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0661202956989248 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/323ef3f6-d944-4522-aeeb-6cd44b672605">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0661202956989248</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/4f18c9ca-66af-4878-9e6a-c3e2e40fe20a">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/4656badb-4808-4c32-888b-5ea38a6be6fd">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2012-03-01T00:00:00.000+01:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0983965053763442 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/d795d82a-e742-4126-8109-edea2c2675fa">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0983965053763442</j.2:value>
+      </j.2:QuantitativeValue>
+    </j.1:hasResult>
+    <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>
+    <j.1:hasFeatureOfInterest rdf:resource="http://esonetyellowpages.com/vocab/f9211"/>
+    <j.1:observedProperty rdf:resource="http://esonetyellowpages.com/vocab/c6563"/>
+    <j.1:isObservedBy rdf:resource="http://fixo3.eu/vocab/0195d"/>
+  </j.1:Observation>
+  <j.1:Observation rdf:about="http://fixo3.eu/vocab/5a6614bf-582c-431a-b1e2-4f054962776e">
+    <j.1:resultTime>
+      <j.0:Instant rdf:about="http://fixo3.eu/vocab/fc4395db-3d46-4037-83cd-e4bbe940d3dd">
+        <j.0:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2013-05-01T00:00:00.000+02:00</j.0:inXSDDateTime>
+      </j.0:Instant>
+    </j.1:resultTime>
+    <j.1:hasSimpleResult rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >0.0909301075268817 m s^-1</j.1:hasSimpleResult>
+    <j.1:hasResult>
+      <j.2:QuantitativeValue rdf:about="http://fixo3.eu/vocab/dcd0b78a-b1d7-4eab-a918-7d70a98d0ba9">
+        <j.2:unitCode rdf:resource="http://qudt.org/vocab/unit#MeterPerSecond"/>
+        <j.2:value rdf:datatype="http://www.w3.org/2001/XMLSchema#double"
+        >0.0909301075268817</j.2:value>
       </j.2:QuantitativeValue>
     </j.1:hasResult>
     <j.3:wasOriginatedBy rdf:resource="http://esonetyellowpages.com/vocab/6fd42"/>

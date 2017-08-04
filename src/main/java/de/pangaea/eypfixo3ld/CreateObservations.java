@@ -24,6 +24,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.UUID;
 
+import org.apache.jena.datatypes.BaseDatatype;
+import org.apache.jena.datatypes.RDFDatatype;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -59,32 +61,34 @@ import de.pangaea.eypfixo3ld.vocab.Time;
 
 public class CreateObservations {
 
-	private static final String csvFile = "src/main/resources/config/e2-m3a-adcp-horizontal-current-speed-monthly.csv";
-	private static final DateTime skipBefore = new DateTime(2011, 5, 1, 0, 0, 0);
-	private static final Double skipDepth = Double.valueOf(253.0);
+	RDFDatatype unitCodeDatatype = new CustomDatatype("http://w3id.org/lindt/custom_datatypes#ucum");
+
+	String csvFile = "src/main/resources/config/e2-m3a-adcp-horizontal-current-speed-monthly.csv";
+	DateTime skipBefore = new DateTime(2011, 5, 1, 0, 0, 0);
+	Double skipDepth = Double.valueOf(253.0);
 	Resource sensorId = ResourceFactory.createResource("http://fixo3.eu/vocab/0195d");
 	Resource propertyId = ResourceFactory.createResource("http://esonetyellowpages.com/vocab/c6563");
 	Resource featureId = ResourceFactory.createResource("http://esonetyellowpages.com/vocab/f9211");
 	Resource stimulusId = ResourceFactory.createResource("http://esonetyellowpages.com/vocab/6fd42");
 	Resource unitCodeId = ResourceFactory.createResource("http://qudt.org/vocab/unit#MeterPerSecond");
-	private static final String rdfFile = "src/main/resources/rdf/e2-m3a-adcp-observations.rdf";
+	String unitCodeSymbol = "m s^-1";
+	String rdfFile = "src/main/resources/rdf/e2-m3a-adcp-observations.rdf";
 
-	/*
-	 * private static final String csvFile =
-	 * "src/main/resources/config/pap-pco2.csv"; private static final DateTime
-	 * skipBefore = new DateTime(2010, 1, 1, 0, 0, 0); private static final
-	 * Double skipDepth = Double.valueOf(0.0); Resource sensorId =
-	 * ResourceFactory.createResource("http://fixo3.eu/vocab/45767"); Resource
-	 * propertyId =
-	 * ResourceFactory.createResource("http://esonetyellowpages.com/vocab/2dfc4"
-	 * ); Resource featureId =
-	 * ResourceFactory.createResource("http://esonetyellowpages.com/vocab/541de"
-	 * ); Resource stimulusId =
-	 * ResourceFactory.createResource("http://esonetyellowpages.com/vocab/746b9"
-	 * ); Resource unitCodeId = ResourceFactory.createResource(
-	 * "http://qudt.org/vocab/unit#PartsPerMillion"); private static final
-	 * String rdfFile = "src/main/resources/rdf/pap-pco2-observations.rdf";
-	 */
+	// String csvFile = "src/main/resources/config/pap-pco2.csv";
+	// DateTime skipBefore = new DateTime(2010, 1, 1, 0, 0, 0);
+	// Double skipDepth = Double.valueOf(0.0);
+	// Resource sensorId =
+	// ResourceFactory.createResource("http://fixo3.eu/vocab/45767");
+	// Resource propertyId =
+	// ResourceFactory.createResource("http://esonetyellowpages.com/vocab/2dfc4");
+	// Resource featureId =
+	// ResourceFactory.createResource("http://esonetyellowpages.com/vocab/541de");
+	// Resource stimulusId =
+	// ResourceFactory.createResource("http://esonetyellowpages.com/vocab/746b9");
+	// Resource unitCodeId =
+	// ResourceFactory.createResource("http://qudt.org/vocab/unit#PartsPerMillion");
+	// String unitCodeSymbol = "ppm";
+	// String rdfFile = "src/main/resources/rdf/pap-pco2-observations.rdf";
 
 	private static final DateTimeFormatter dtf = DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss");
 
@@ -103,6 +107,7 @@ public class CreateObservations {
 		Property hasFeatureOfInterest = ResourceFactory.createProperty(SOSA.hasFeatureOfInterest.toString());
 		Property wasOriginatedBy = ResourceFactory.createProperty(SSN.wasOriginatedBy.toString());
 		Property hasResult = ResourceFactory.createProperty(SOSA.hasResult.toString());
+		Property hasSimpleResult = ResourceFactory.createProperty(SOSA.hasSimpleResult.toString());
 		Property value = ResourceFactory.createProperty(Schema.value.toString());
 		Property resultTime = ResourceFactory.createProperty(SOSA.resultTime.toString());
 		Property unitCode = ResourceFactory.createProperty(Schema.unitCode.toString());
@@ -123,7 +128,8 @@ public class CreateObservations {
 				if (depth.equals(skipDepth))
 					continue;
 
-				Double speed = Double.valueOf(row[2]);
+				Double resultValue = Double.valueOf(row[2]);
+				String resultValueWithUnit = resultValue + " " + unitCodeSymbol;
 
 				Resource observationId = ResourceFactory.createResource(FIXO3.ns + UUID.randomUUID().toString());
 				Resource timeId = ResourceFactory.createResource(FIXO3.ns + UUID.randomUUID().toString());
@@ -135,8 +141,11 @@ public class CreateObservations {
 				m.add(observationId, hasFeatureOfInterest, featureId);
 				m.add(observationId, wasOriginatedBy, stimulusId);
 				m.add(observationId, hasResult, resultId);
+				m.add(observationId, hasSimpleResult,
+						ResourceFactory.createTypedLiteral(resultValueWithUnit, unitCodeDatatype));
 				m.add(resultId, RDF.type, QuantitativeValue);
-				m.add(resultId, value, ResourceFactory.createTypedLiteral(speed.toString(), XSDDatatype.XSDdouble));
+				m.add(resultId, value,
+						ResourceFactory.createTypedLiteral(resultValue.toString(), XSDDatatype.XSDdouble));
 				m.add(resultId, unitCode, unitCodeId);
 				m.add(observationId, resultTime, timeId);
 				m.add(timeId, RDF.type, Instant);
@@ -164,5 +173,13 @@ public class CreateObservations {
 	public static void main(String[] args) throws IOException {
 		CreateObservations app = new CreateObservations();
 		app.run();
+	}
+
+	private class CustomDatatype extends BaseDatatype {
+
+		public CustomDatatype(String uri) {
+			super(uri);
+		}
+
 	}
 }
