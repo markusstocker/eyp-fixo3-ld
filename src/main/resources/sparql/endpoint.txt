@@ -1,4 +1,0 @@
-http://markusstocker.com:3030/
-
-Username: admin
-Password: pw
