@@ -71,7 +71,7 @@ public class CreateObservations {
 	Resource featureId = ResourceFactory.createResource("http://esonetyellowpages.com/vocab/f9211");
 	Resource stimulusId = ResourceFactory.createResource("http://esonetyellowpages.com/vocab/6fd42");
 	Resource unitCodeId = ResourceFactory.createResource("http://qudt.org/vocab/unit#MeterPerSecond");
-	String unitCodeSymbol = "m s^-1";
+	String unitCodeSymbol = "m.s-1";
 	String rdfFile = "src/main/resources/rdf/e2-m3a-adcp-observations.rdf";
 
 	// String csvFile = "src/main/resources/config/pap-pco2.csv";
